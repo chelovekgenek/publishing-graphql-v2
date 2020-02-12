@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
 
-import { RtlNieuwsModule } from 'modules/rtlnieuws';
+import { RtlNieuwsModule } from 'shared/facades';
 
 import { MenuService } from './menu.service';
 import { MenuResolver } from './menu.resolver';

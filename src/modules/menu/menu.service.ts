@@ -1,9 +1,12 @@
 import { Injectable } from '@nestjs/common';
 
-import { RtlNieuwsService } from 'modules/rtlnieuws';
+import {
+  RtlNieuwsService,
+  MenuResultModel,
+  MenuItemResultModel,
+} from 'shared/facades';
 
 import { Menu, MenuItem } from './models';
-import { MenuResultModel, MenuItemResultModel } from 'modules/rtlnieuws';
 
 @Injectable()
 export class MenuService {
