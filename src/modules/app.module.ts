@@ -16,6 +16,7 @@ import { MenuModule } from './menu';
       playground: true,
       debug: true,
       autoSchemaFile: true,
+      path: '/',
     }),
     MenuModule,
   ],
